@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333333;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#wallet_address_input {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#get_airdrop_button {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#get_airdrop_button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
